@@ -1,0 +1,1 @@
+CREATE TABLE `cadastro2`.`usuarios` ( `id` INT UNSIGNED NOT NULL AUTO_INCREMENT , `nome` VARCHAR(45) NOT NULL , `email` VARCHAR(255) NOT NULL , `senha` VARCHAR(255) NOT NULL , `data_nasc` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
